@@ -1,0 +1,97 @@
+---
+title: Manual de Usuario – ATS BETTERWAY DEVS
+description: Guía completa del sistema ATS BETTERWAY DEVS
+template: splash
+hero:
+  title: |
+    Manual de Usuario
+    <span class="light-text">ATS BETTERWAY DEVS</span>
+  tagline: Guía completa para el uso del sistema de seguimiento de candidatos ATS BETTERWAY DEVS.
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+import LinkButton from "~/components/LinkButton.astro";
+import ListCard from "~/components/user-components/ListCard.astro";
+
+<Section title="Secciones del
+<span class='light-text'>Manual</span>" description="Explora todas las funcionalidades del sistema ATS BETTERWAY DEVS.">
+
+<Grid columns={4}>
+  <Card title="Login" icon="login" iconColor="#FF8585">
+    Acceso al sistema y autenticación de usuarios.
+  </Card>
+  <Card title="Dashboard" icon="seti:dashboard" iconColor="#7BE1A4">
+    Panel principal con resumen de actividades y métricas.
+  </Card>
+  <Card title="My Pending Tasks" icon="seti:todo" iconColor="#FFD97B">
+    Gestión de tareas pendientes asignadas al usuario.
+  </Card>
+  <Card title="Prospects" icon="users" iconColor="#979BFF">
+    Administración de prospectos y leads potenciales.
+  </Card>
+</Grid>
+
+<Grid columns={4}>
+  <Card title="Candidates" icon="user" iconColor="#FF8585">
+    Gestión completa de candidatos en el proceso de selección.
+  </Card>
+  <Card title="Projects" icon="seti:project" iconColor="#7BE1A4">
+    Administración de proyectos y vacantes disponibles.
+  </Card>
+  <Card title="Tasks" icon="seti:checkbox" iconColor="#FFD97B">
+    Sistema de tareas y seguimiento de actividades.
+  </Card>
+  <Card title="Other" icon="seti:config" iconColor="#979BFF">
+    Configuraciones adicionales y funcionalidades extra.
+  </Card>
+</Grid>
+
+</Section>
+
+<Section title="Más <span class='light-text'>Funcionalidades</span>" description="Opciones adicionales del sistema.">
+
+<Grid columns={3}>
+  <Card title="Contacto con BetterWay Devs" icon="phone" iconColor="#7BE1A4">
+    Información de contacto y soporte técnico.
+  </Card>
+  <Card title="View Profile" icon="user" iconColor="#FFD97B">
+    Visualización y edición del perfil de usuario.
+  </Card>
+  <Card title="Logout" icon="logout" iconColor="#FF8585">
+    Cierre de sesión seguro del sistema.
+  </Card>
+</Grid>
+
+</Section>
+
+<Section title="Navegación <span class='light-text'>Rápida</span>" description="Accede directamente a cada sección del manual.">
+
+<Grid columns={3}>
+<ListCard title="Acceso al Sistema" imageIcon="/src/assets/element.svg" number="2">
+- [Login](/manual/login/)
+- [Logout](/manual/logout/)
+- [View Profile](/manual/view-profile/)
+
+<LinkButton href="/manual/login/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
+</ListCard>
+
+<ListCard title="Gestión Principal" imageIcon="/src/assets/content.svg" number="4">
+- [Dashboard](/manual/dashboard/)
+- [My Pending Tasks](/manual/my-pending-tasks/)
+- [Tasks](/manual/tasks/)
+- [Projects](/manual/projects/)
+
+<LinkButton href="/manual/dashboard/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
+</ListCard>
+
+<ListCard title="Gestión de Personas" imageIcon="/src/assets/layouts.svg" number="2">
+- [Prospects](/manual/prospects/)
+- [Candidates](/manual/candidates/)
+
+<LinkButton href="/manual/prospects/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
+</ListCard>
+</Grid>
+
+</Section>
