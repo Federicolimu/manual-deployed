@@ -1,0 +1,80 @@
+---
+title: User Manual – ATS BETTERWAY DEVS
+description: Complete guide to the ATS BETTERWAY DEVS system
+template: splash
+hero:
+  title: |
+    User Manual
+    <span class="light-text">ATS BETTERWAY DEVS</span>
+  tagline: Complete guide to using the ATS BETTERWAY DEVS candidate tracking system.
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+import LinkButton from "~/components/LinkButton.astro";
+import ListCard from "~/components/user-components/ListCard.astro";
+
+<Section title="Manual
+<span class='light-text'>Sections</span>" description="Explore all the features of the ATS BETTERWAY DEVS system.">
+
+<Grid columns={4}>
+  <Card title="Login" icon="login" iconColor="#FF8585">
+    System access and user authentication.
+  </Card>
+  <Card title="Dashboard" icon="seti:dashboard" iconColor="#7BE1A4">
+    Main panel with activity summary and metrics.
+  </Card>
+  <Card title="My Pending Tasks" icon="seti:todo" iconColor="#FFD97B">
+    Management of pending tasks assigned to the user.
+  </Card>
+  <Card title="Prospects" icon="users" iconColor="#979BFF">
+    Prospect and potential lead management.
+  </Card>
+</Grid>
+
+<Grid columns={4}>
+  <Card title="Candidates" icon="user" iconColor="#FF8585">
+    Complete candidate management in the selection process.
+  </Card>
+  <Card title="Projects" icon="seti:project" iconColor="#7BE1A4">
+    Project and available vacancy management.
+  </Card>
+  <Card title="Tasks" icon="seti:checkbox" iconColor="#FFD97B">
+    Task system and activity tracking.
+  </Card>
+  <Card title="Other" icon="seti:config" iconColor="#979BFF">
+    Additional settings and extra features.
+  </Card>
+</Grid>
+
+</Section>
+
+<Section title="Quick <span class='light-text'>Navigation</span>" description="Access each section of the manual directly.">
+
+<Grid columns={3}>
+<ListCard title="System Access" imageIcon="/src/assets/element.svg" number="2">
+- [Login](/en/documentacion-ats/login/)
+- [Logout](/en/documentacion-ats/logout/)
+
+<LinkButton href="/en/documentacion-ats/login/" variant="text" className="mt-6 mb-8 ml-4">View section</LinkButton>
+</ListCard>
+
+<ListCard title="Main Management" imageIcon="/src/assets/content.svg" number="4">
+- [Dashboard](/en/documentacion-ats/dashboard/)
+- [My Pending Tasks](/en/documentacion-ats/my-pending-tasks/)
+- [Tasks](/en/documentacion-ats/tasks/)
+- [Projects](/en/documentacion-ats/projects/)
+
+<LinkButton href="/en/documentacion-ats/dashboard/" variant="text" className="mt-6 mb-8 ml-4">View section</LinkButton>
+</ListCard>
+
+<ListCard title="People Management" imageIcon="/src/assets/layouts.svg" number="2">
+- [Prospects](/en/documentacion-ats/prospects/)
+- [Candidates](/en/documentacion-ats/candidates/)
+
+<LinkButton href="/en/documentacion-ats/prospects/" variant="text" className="mt-6 mb-8 ml-4">View section</LinkButton>
+</ListCard>
+</Grid>
+
+</Section>

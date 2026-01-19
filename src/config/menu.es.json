@@ -1,0 +1,45 @@
+{
+  "main": [
+    {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
+      "name": "Documentación",
+      "url": "/documentacion-ats/introduccion/"
+    }
+  ],
+  "footer": {
+    "community": {
+      "title": "Comunidad",
+      "links": [
+        {
+          "name": "Soporte Técnico",
+          "url": "#"
+        }
+      ]
+    },
+    "help_links": {
+      "title": "Enlaces de Ayuda",
+      "links": [
+        {
+          "name": "Inicio",
+          "url": "/"
+        },
+        {
+          "name": "Documentación",
+          "url": "/documentacion-ats/introduccion/"
+        }
+      ]
+    },
+    "company": {
+      "title": "Recursos",
+      "links": [
+        {
+          "name": "Manual PDF (Próximamente)",
+          "url": "#"
+        }
+      ]
+    }
+  }
+}

@@ -1,69 +1,69 @@
 {
   "main": [
     {
-      "label": "Getting Started",
+      "label": "Documentación ATS",
       "translations": {
-        "fr": "Commencer"
+        "en": "ATS Documentation"
       },
       "items": [
         {
-          "label": "[seti:vite] Introduction",
-          "translations": {
-            "fr": "[seti:vite] Introduction"
-          },
-          "autogenerate": { "directory": "getting-started/introduction" }
+          "label": "[document] Introducción",
+          "translations": { "en": "[document] Introduction" },
+          "slug": "documentacion-ats/introduccion"
         },
         {
-          "label": "[setting] Global Settings",
-          "translations": {
-            "fr": "[setting] Paramètres globaux"
-          },
-          "autogenerate": { "directory": "getting-started/global-settings" }
+          "label": "[seti:plan] Lineamientos",
+          "translations": { "en": "[seti:plan] Guidelines" },
+          "slug": "documentacion-ats/lineamientos"
         },
         {
-          "label": "[seti:plan] Navigation",
-          "translations": {
-            "fr": "[seti:plan] Navigation"
-          },
-          "slug": "getting-started/navigation"
+          "label": "[login] Login",
+          "slug": "documentacion-ats/login"
+        },
+        {
+          "label": "[seti:dashboard] Dashboard",
+          "slug": "documentacion-ats/dashboard"
+        },
+        {
+          "label": "[seti:todo] Mis Tareas Pendientes",
+          "translations": { "en": "[seti:todo] My Pending Tasks" },
+          "slug": "documentacion-ats/my-pending-tasks"
+        },
+        {
+          "label": "[users] Prospectos",
+          "translations": { "en": "[users] Prospects" },
+          "slug": "documentacion-ats/prospects"
+        },
+        {
+          "label": "[user] Candidatos",
+          "translations": { "en": "[user] Candidates" },
+          "slug": "documentacion-ats/candidates"
+        },
+        {
+          "label": "[seti:project] Proyectos",
+          "translations": { "en": "[seti:project] Projects" },
+          "slug": "documentacion-ats/projects"
+        },
+        {
+          "label": "[seti:checkbox] Tareas",
+          "translations": { "en": "[seti:checkbox] Tasks" },
+          "slug": "documentacion-ats/tasks"
+        },
+        {
+          "label": "[phone] Contacto",
+          "translations": { "en": "[phone] Contact" },
+          "slug": "documentacion-ats/contacto"
+        },
+        {
+          "label": "[seti:config] Otros (Admin)",
+          "translations": { "en": "[seti:config] Other (Admin)" },
+          "slug": "documentacion-ats/other"
+        },
+        {
+          "label": "[logout] Logout",
+          "slug": "documentacion-ats/logout"
         }
       ]
-    },
-    {
-      "label": "Content",
-      "translations": {
-        "fr": "Contenu"
-      },
-      "items": [
-        {
-          "label": "[document] Components and Block",
-          "translations": {
-            "fr": "[document] Composants et blocs"
-          },
-          "autogenerate": { "directory": "contents/components" }
-        },
-        {
-          "label": "[pencil] Editing Content",
-          "translations": {
-            "fr": "[pencil] Édition du contenu"
-          },
-          "autogenerate": { "directory": "contents/editing" }
-        }
-      ]
-    },
-    {
-      "label": "Reference",
-      "translations": {
-        "fr": "Référence"
-      },
-      "autogenerate": { "directory": "reference" }
-    },
-    {
-      "label": "Configurations",
-      "translations": {
-        "fr": "Configurations"
-      },
-      "autogenerate": { "directory": "configurations" }
     }
   ]
 }

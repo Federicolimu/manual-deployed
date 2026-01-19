@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Manual ATS BETTERWAY",
-    "logo": "/src/assets/logo-light.svg",
-    "logo_darkmode": "/src/assets/logo-dark.svg",
-    "logo_width": "127",
+    "title": "Documentación Bitterwise",
+    "logo": "/src/assets/logo-bitterwise.svg",
+    "logo_darkmode": "/src/assets/logo-bitterwise.svg",
+    "logo_width": "120",
     "logo_height": "32",
-    "logo_text": "ATS BETTERWAY"
+    "logo_text": "Documentación Bitterwise"
   },
   "settings": {
     "search": true,
@@ -16,14 +16,14 @@
       "enable": true,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"https://themefisher.com\" target=\"_blank\" rel=\"noopener\" aria-label=\"Themefisher\">Themefisher</a> Copyright &copy; 2025."
+    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"ATS\">ATS</a> Copyright &copy; 2026."
   },
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
+    "label": "Ver Manual",
     "translations": {
-      "fr": "Erste Schritte"
+      "fr": "Ver Manual"
     },
-    "link": "/getting-started/introduction/overview/"
+    "link": "/documentacion-ats/introduccion/"
   }
 }
