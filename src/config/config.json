@@ -1,10 +1,10 @@
 {
   "site": {
     "title": "Documentación Bitterwise",
-    "logo": "/src/assets/logo-bitterwise.svg",
-    "logo_darkmode": "/src/assets/logo-bitterwise.svg",
-    "logo_width": "120",
-    "logo_height": "32",
+    "logo": "/src/assets/logo-betterway.svg",
+    "logo_darkmode": "/src/assets/logo-betterway.svg",
+    "logo_width": "200",
+    "logo_height": "60",
     "logo_text": "Documentación Bitterwise"
   },
   "settings": {
