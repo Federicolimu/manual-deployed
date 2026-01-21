@@ -1,12 +1,12 @@
 ---
-title: Introducción al ATS Bitterwise
+title: Introducción al ATS BetterWay Devs
 description: Contexto general del sistema y alcance del manual operativo.
 ---
 
-## ¿Qué es el ATS Bitterwise?
+## ¿Qué es el ATS BetterWay Devs?
 
-El ATS Bitterwise centraliza la gestión de talento para BetterWay Devs. Reúne la información de prospectos, candidatos, proyectos y tareas en un solo lugar, permitiendo a los equipos de recruiting operar con datos actualizados.
-
+El ATS BetterWay Devs centraliza la gestión de talento para BetterWay Devs. Reúne la información de prospectos, candidatos, proyectos y tareas en un solo lugar, permitiendo a los equipos de recruiting operar con datos actualizados.
+clea
 ## Objetivo del sistema
 
 - Automatizar el seguimiento de candidatos y prospectos.
@@ -19,4 +19,4 @@ El ATS Bitterwise centraliza la gestión de talento para BetterWay Devs. Reúne 
 - **Operations:** equipos que soportan la ejecución diaria del ATS.
 - **Hiring Managers:** líderes que consultan el estado de posiciones y paneles de talento.
 
-Cada sección posterior desglosa un módulo específico con pasos detallados y recomendaciones prácticas.
+Cada sección posterior desglosa un módulo específico con pasos detallados y recomendaciones prácticas. 
