@@ -6,14 +6,14 @@ description: Centralized management of active and closed vacancies.
 ## Objective
 Organize recruitment initiatives by client and position, controlling statuses and visibility.
 
-## Module Structure
+## Module structure
 
 The list is divided into:
 - **All:** Complete history of positions.
 - **Active:** Open vacancies in recruiting process.
 - **Closed:** Finalized or canceled searches.
 
-## Project Detail
+## Project detail
 
 Each project row shows:
 1. **Company:** Associated client.

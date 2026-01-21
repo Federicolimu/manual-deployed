@@ -1,22 +1,34 @@
 ---
 title: Dashboard
-description: Overview of activity and quick access within the system.
+description: Overview of activity and quick access in the system.
 ---
 
 ## Objective
-Get a quick overview of recent information and access main modules quickly.
+It is the main screen of the system. From here, the user can view recent information at a glance and quickly access the main modules.
 
-## Key Features
+## Key functionalities
 
-- **Navigation Menu:** Direct access to all sessions (Tasks, Prospects, Candidates, etc.).
-- **New Applications:** Summary of recent candidates with contact data and status.
-- **Video & CV:** Quick links to presentation video and resume if available.
-- **Open Events:** View scheduled meetings and LinkedIn events.
+- **Navigation menu:** Direct access to all sessions (Tasks, Prospects, Candidates, etc.).
+- **New applications:** Summary of recent candidates with contact information, status, and project they applied to.
+- **Video & CV:** Quick links to presentation and resume if available.
+- **Open events:** Display of scheduled meetings and LinkedIn events.
 
-## Reference Screenshots
+## Reference screenshots
 
-_(Refer to images 1 to 4 in the original manual to see widget distribution and key metrics)._
+_(Refer to images 1 to 4 of the original manual to view widget distribution and key metrics)._
 
-## Operational Tips
-- Use Dashboard shortcuts to review daily operation status.
+![General Dashboard](/images/dashboard/dashboard1.png)
+_Figure 1: General Dashboard view_
+
+![Dashboard Filters](/images/dashboard/dashboard2.png)
+_Figure 2: General Dashboard view_
+
+![Dashboard Charts](/images/dashboard/dashboard3.png)
+_Figure 3: General Dashboard view_
+
+![Dashboard Tables](/images/dashboard/dashboard4.png)
+_Figure 4: General Dashboard view_
+
+## Operational tips
+- Use Dashboard shortcuts to review the daily status of your operation.
 - Check new entry notifications before starting deep tasks.
