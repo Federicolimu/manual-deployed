@@ -11,12 +11,12 @@ View and quickly pending tasks to be performed, to keep the operational flow up 
 
 - **With pending:** A detailed list of tasks to be performed is displayed (see image 1).
 
-![View with pending](../../../../assets/pendingTask1.png)
+![View with pending](/images/my-pending-task/pendingTask1.png)
 image 1: View with pending tasks
 
 - **Without pending:** The message "No pending tasks" appears confirming that you are up to date with your tasks (see image 2).
 
-![View without pending](../../../../assets/pendingTask2.png)
+![View without pending](/images/my-pending-task/pendingTask2.png)
 image 2: View without pending tasks
 
 This module is accessible directly from the main Dashboard screen.
