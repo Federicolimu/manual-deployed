@@ -13,7 +13,7 @@
   },
   "params": {
     "footer_contact": {
-      "enable": true,
+      "enable": false,
       "action": "#"
     },
     "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"ATS\">BetterWay Devs</a> Copyright &copy; 2026."
