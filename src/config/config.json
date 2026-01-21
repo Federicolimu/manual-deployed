@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Documentación Bitterwise",
+    "title": "Documentación ATS BetterWay Devs",
     "logo": "/src/assets/logo-betterway.svg",
     "logo_darkmode": "/src/assets/logo-betterway.svg",
     "logo_width": "200",
     "logo_height": "60",
-    "logo_text": "Documentación Bitterwise"
+    "logo_text": "Documentación ATS BetterWay Devs"
   },
   "settings": {
     "search": true,
@@ -16,7 +16,7 @@
       "enable": true,
       "action": "#"
     },
-    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"ATS\">ATS</a> Copyright &copy; 2026."
+    "copyright": "Designed and Developed by <a class=\"text-primary hover:underline no-underline\" href=\"#\" target=\"_blank\" rel=\"noopener\" aria-label=\"ATS\">BetterWay Devs</a> Copyright &copy; 2026."
   },
   "navigation_button": {
     "enable": true,
