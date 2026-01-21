@@ -4,8 +4,28 @@ import { Badge } from "@astrojs/starlight/components";
 import SidebarRestorePoint from "./SidebarRestorePoint.astro";
 import { flattenSidebar } from "node_modules/@astrojs/starlight/utils/navigation";
 import { plainLabel, getIconFromLabel } from "@/lib/utils/textConverter";
+import { Icon as IconifyIcon } from "astro-icon/components";
 
 const { sublist, nested } = Astro.props;
+
+const phosphorIcons = {
+  "file-text": "ph:file-text",
+  "clipboard-text": "ph:clipboard-text",
+  "sign-in": "ph:sign-in",
+  "dashboard": "ph:squares-four",
+  "user-focus": "ph:user-focus",
+  "user-plus": "ph:user-plus",
+  "briefcase": "ph:briefcase",
+  "check-square": "ph:check-square",
+  "phone": "ph:phone",
+  "gear": "ph:gear",
+  "sign-out": "ph:sign-out"
+};
+
+const getIconifyName = (iconName: string | null) => {
+  if (!iconName) return null;
+  return phosphorIcons[iconName as keyof typeof phosphorIcons] || null;
+};
 ---
 
 <ul class:list={{ "top-level": !nested }}>
@@ -19,13 +39,15 @@ const { sublist, nested } = Astro.props;
             class:list={[{ large: !nested }, entry.attrs.class]}
             {...entry.attrs}
           >
-            {getIconFromLabel(entry.label) && (
-              <Icon
-                name={getIconFromLabel(entry.label) as any}
-                size="1.3rem"
-                class="mr-2.5"
-              />
-            )}
+            {(() => {
+              const iconName = getIconFromLabel(entry.label);
+              const iconifyName = getIconifyName(iconName);
+              return iconifyName ? (
+                <IconifyIcon name={iconifyName} size="1.3rem" class="mr-2.5" />
+              ) : iconName ? (
+                <Icon name={iconName as any} size="1.3rem" class="mr-2.5" />
+              ) : null;
+            })()}
             <span>{plainLabel(entry.label)}</span>
             {entry.badge && (
               <Badge
@@ -45,18 +67,25 @@ const { sublist, nested } = Astro.props;
             <SidebarRestorePoint />
             <summary>
               <span class="group-label">
-                {getIconFromLabel(entry.label) && (
-                  <Icon
-                    name={getIconFromLabel(entry.label) as any}
-                    size="1.3rem"
-                    class="mr-2.5"
-                    color={
-                      flattenSidebar(entry.entries).some((i) => i.isCurrent)
-                        ? "var(--color-primary)"
-                        : ""
-                    }
-                  />
-                )}
+                {(() => {
+                  const iconName = getIconFromLabel(entry.label);
+                  const iconifyName = getIconifyName(iconName);
+                  return iconifyName ? (
+                    <IconifyIcon 
+                      name={iconifyName} 
+                      size="1.3rem" 
+                      class="mr-2.5" 
+                      color={flattenSidebar(entry.entries).some((i) => i.isCurrent) ? "var(--color-primary)" : undefined}
+                    />
+                  ) : iconName ? (
+                    <Icon 
+                      name={iconName as any} 
+                      size="1.3rem" 
+                      class="mr-2.5"
+                      color={flattenSidebar(entry.entries).some((i) => i.isCurrent) ? "var(--color-primary)" : ""}
+                    />
+                  ) : null;
+                })()}
 
                 <span class="large">{plainLabel(entry.label)}</span>
                 {entry.badge && (

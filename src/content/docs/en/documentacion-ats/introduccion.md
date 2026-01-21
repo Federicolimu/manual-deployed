@@ -1,25 +1,22 @@
 ---
-title: Introduction to ATS
-description: Welcome to the ATS BETTERWAY DEVS User Manual.
+title: Introduction to ATS BetterWay Devs
+description: General context of the system and scope of the operational manual.
 ---
 
-## What is the ATS?
+## What is ATS BetterWay Devs?
 
-The ATS (Applicant Tracking System) is the central recruitment management platform of **Betterway Devs**. It allows you to organize candidates, prospects, projects, and tasks in one place to optimize the tech talent selection workflow.
+The ATS BetterWay Devs centralizes talent management for BetterWay Devs. It gathers information on prospects, candidates, projects, and tasks in one place, allowing recruiting teams to operate with up-to-date data.
 
-## ATS Objective
+## System Objective
 
-- Centralize candidate and prospect information.
-- Manage active and closed vacancies by client.
-- Automate repetitive tasks through AI agents and system processes.
-- Facilitate internal communication and tracking of each process.
+- Automate candidate and prospect tracking.
+- Integrate commercial, operational, and staffing needs into a single flow.
+- Reduce response time to clients and available talent.
 
 ## Who is this manual for?
 
-This manual is intended for:
+- **Recruiters:** responsible for direct contact with candidates.
+- **Operations:** teams that support the daily execution of the ATS.
+- **Hiring Managers:** leaders who check the status of positions and talent panels.
 
-- **Recruiters** – Daily system operations.
-- **Operations** – Workflow supervision and metrics.
-- **Hiring Managers** – Consultation of assigned candidates and projects.
-
-Navigate through the sidebar sections to learn about each module in detail.
+Each subsequent section breaks down a specific module with detailed steps and practical recommendations.

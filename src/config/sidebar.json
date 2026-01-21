@@ -7,46 +7,46 @@
       },
       "items": [
         {
-          "label": "[document] Introducción",
-          "translations": { "en": "[document] Introduction" },
+          "label": "[file-text] Introducción",
+          "translations": { "en": "[file-text] Introduction" },
           "slug": "documentacion-ats/introduccion"
         },
         {
-          "label": "[seti:plan] Lineamientos",
-          "translations": { "en": "[seti:plan] Guidelines" },
+          "label": "[clipboard-text] Lineamientos",
+          "translations": { "en": "[clipboard-text] Guidelines" },
           "slug": "documentacion-ats/lineamientos"
         },
         {
-          "label": "[login] Login",
+          "label": "[sign-in] Login",
           "slug": "documentacion-ats/login"
         },
         {
-          "label": "[seti:dashboard] Dashboard",
+          "label": "[dashboard] Dashboard",
           "slug": "documentacion-ats/dashboard"
         },
         {
-          "label": "[seti:todo] Mis Tareas Pendientes",
-          "translations": { "en": "[seti:todo] My Pending Tasks" },
+          "label": "[clipboard-text] Mis Tareas Pendientes",
+          "translations": { "en": "[clipboard-text] My Pending Tasks" },
           "slug": "documentacion-ats/my-pending-tasks"
         },
         {
-          "label": "[users] Prospectos",
-          "translations": { "en": "[users] Prospects" },
+          "label": "[user-focus] Prospectos",
+          "translations": { "en": "[user-focus] Prospects" },
           "slug": "documentacion-ats/prospects"
         },
         {
-          "label": "[user] Candidatos",
-          "translations": { "en": "[user] Candidates" },
+          "label": "[user-plus] Candidatos",
+          "translations": { "en": "[user-plus] Candidates" },
           "slug": "documentacion-ats/candidates"
         },
         {
-          "label": "[seti:project] Proyectos",
-          "translations": { "en": "[seti:project] Projects" },
+          "label": "[briefcase] Proyectos",
+          "translations": { "en": "[briefcase] Projects" },
           "slug": "documentacion-ats/projects"
         },
         {
-          "label": "[seti:checkbox] Tareas",
-          "translations": { "en": "[seti:checkbox] Tasks" },
+          "label": "[check-square] Tareas",
+          "translations": { "en": "[check-square] Tasks" },
           "slug": "documentacion-ats/tasks"
         },
         {
@@ -55,12 +55,12 @@
           "slug": "documentacion-ats/contacto"
         },
         {
-          "label": "[seti:config] Otros (Admin)",
-          "translations": { "en": "[seti:config] Other (Admin)" },
+          "label": "[gear] Otros (Admin)",
+          "translations": { "en": "[gear] Other (Admin)" },
           "slug": "documentacion-ats/other"
         },
         {
-          "label": "[logout] Logout",
+          "label": "[sign-out] Logout",
           "slug": "documentacion-ats/logout"
         }
       ]

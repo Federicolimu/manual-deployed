@@ -4,6 +4,7 @@ import starlight from "@astrojs/starlight";
 import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 
 import tailwindcss from "@tailwindcss/vite";
+import icon from "astro-icon";
 import config from "./src/config/config.json" assert { type: "json" };
 import social from "./src/config/social.json";
 import locals from "./src/config/locals.json";
@@ -23,6 +24,11 @@ export default defineConfig({
     service: { entrypoint: "astro/assets/services/noop" },
   },
   integrations: [
+    icon({
+      include: {
+        "ph": ["*"]
+      }
+    }),
     starlight({
       title,
       logo: {

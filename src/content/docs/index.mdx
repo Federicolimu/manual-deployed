@@ -15,67 +15,53 @@ import Grid from "~/components/user-components/Grid.astro";
 import LinkButton from "~/components/LinkButton.astro";
 import ListCard from "~/components/user-components/ListCard.astro";
 
-<Section title="Secciones del
-<span class='light-text'>Manual</span>" description="Explora todas las funcionalidades del sistema ATS BETTERWAY DEVS.">
+<Section title="Secciones del <span class='light-text'>Manual</span>" description="Explora todas las funcionalidades del sistema ATS BETTERWAY DEVS.">
 
 <Grid columns={4}>
-  <Card title="Login" icon="login" iconColor="#FF8585">
-    Acceso al sistema y autenticación de usuarios.
-  </Card>
-  <Card title="Dashboard" icon="seti:dashboard" iconColor="#7BE1A4">
-    Panel principal con resumen de actividades y métricas.
-  </Card>
-  <Card title="My Pending Tasks" icon="seti:todo" iconColor="#FFD97B">
-    Gestión de tareas pendientes asignadas al usuario.
-  </Card>
-  <Card title="Prospects" icon="users" iconColor="#979BFF">
-    Administración de prospectos y leads potenciales.
-  </Card>
+  <a href="/documentacion-ats/login/" class="card-link">
+    <Card title="Login" icon="sign-in" iconColor="#FF8585">
+      Acceso al sistema y autenticación de usuarios.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/dashboard/" class="card-link">
+    <Card title="Dashboard" icon="dashboard" iconColor="#7BE1A4">
+      Panel principal con resumen de actividades y métricas.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/my-pending-tasks/" class="card-link">
+    <Card title="My Pending Tasks" icon="clipboard-text" iconColor="#FFD97B">
+      Gestión de tareas pendientes asignadas al usuario.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/prospects/" class="card-link">
+    <Card title="Prospects" icon="user-focus" iconColor="#979BFF">
+      Administración de prospectos y leads potenciales.
+    </Card>
+  </a>
 </Grid>
 
 <Grid columns={4}>
-  <Card title="Candidates" icon="user" iconColor="#FF8585">
-    Gestión completa de candidatos en el proceso de selección.
-  </Card>
-  <Card title="Projects" icon="seti:project" iconColor="#7BE1A4">
-    Administración de proyectos y vacantes disponibles.
-  </Card>
-  <Card title="Tasks" icon="seti:checkbox" iconColor="#FFD97B">
-    Sistema de tareas y seguimiento de actividades.
-  </Card>
-  <Card title="Other" icon="seti:config" iconColor="#979BFF">
-    Configuraciones adicionales y funcionalidades extra.
-  </Card>
+  <a href="/documentacion-ats/candidates/" class="card-link">
+    <Card title="Candidates" icon="user-plus" iconColor="#FF8585">
+      Gestión completa de candidatos en el proceso de selección.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/projects/" class="card-link">
+    <Card title="Projects" icon="briefcase" iconColor="#7BE1A4">
+      Administración de proyectos y vacantes disponibles.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/tasks/" class="card-link">
+    <Card title="Tasks" icon="check-square" iconColor="#FFD97B">
+      Sistema de tareas y seguimiento de actividades.
+    </Card>
+  </a>
+  <a href="/documentacion-ats/other/" class="card-link">
+    <Card title="Other" icon="gear" iconColor="#979BFF">
+      Configuraciones adicionales y funcionalidades extra.
+    </Card>
+  </a>
 </Grid>
 
 </Section>
 
-<Section title="Navegación <span class='light-text'>Rápida</span>" description="Accede directamente a cada sección del manual.">
-
-<Grid columns={3}>
-<ListCard title="Acceso al Sistema" imageIcon="/src/assets/element.svg" number="2">
-- [Login](/manual/login/)
-- [Logout](/manual/logout/)
-- [View Profile](/manual/view-profile/)
-
-<LinkButton href="/manual/login/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
-</ListCard>
-
-<ListCard title="Gestión Principal" imageIcon="/src/assets/content.svg" number="4">
-- [Dashboard](/manual/dashboard/)
-- [My Pending Tasks](/manual/my-pending-tasks/)
-- [Tasks](/manual/tasks/)
-- [Projects](/manual/projects/)
-
-<LinkButton href="/manual/dashboard/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
-</ListCard>
-
-<ListCard title="Gestión de Personas" imageIcon="/src/assets/layouts.svg" number="2">
-- [Prospects](/manual/prospects/)
-- [Candidates](/manual/candidates/)
-
-<LinkButton href="/manual/prospects/" variant="text" className="mt-6 mb-8 ml-4">Ver sección</LinkButton>
-</ListCard>
-</Grid>
-
-</Section>

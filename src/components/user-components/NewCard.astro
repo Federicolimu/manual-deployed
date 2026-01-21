@@ -1,7 +1,23 @@
 ---
-import { Icon } from "@astrojs/starlight/components";
+import { Icon } from "astro-icon/components";
 
 const { icon, title, iconColor, size = "large" } = Astro.props;
+
+const phosphorIcons = {
+  "sign-in": "ph:sign-in",
+  "dashboard": "ph:squares-four",
+  "clipboard-text": "ph:clipboard-text",
+  "user-focus": "ph:user-focus",
+  "user-plus": "ph:user-plus",
+  "briefcase": "ph:briefcase",
+  "check-square": "ph:check-square",
+  "gear": "ph:gear",
+  "file-text": "ph:file-text",
+  "phone": "ph:phone",
+  "sign-out": "ph:sign-out"
+};
+
+const iconifyName = phosphorIcons[icon as keyof typeof phosphorIcons] || "ph:file-text";
 ---
 
 <article
@@ -10,8 +26,8 @@ const { icon, title, iconColor, size = "large" } = Astro.props;
   {
     icon && (
       <Icon
-        name={icon}
-        class="icon"
+        name={iconifyName}
+        class="icon astro-gobme5xh"
         size={`${size === "sm" ? "1.4rem" : "2rem"}`}
         color={iconColor}
       />

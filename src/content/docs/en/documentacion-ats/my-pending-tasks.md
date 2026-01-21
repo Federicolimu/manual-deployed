@@ -3,16 +3,24 @@ title: My Pending Tasks
 description: Management of pending tasks assigned to the current user.
 ---
 
+
 ## Objective
-View and execute pending activities to keep the operational flow up to date.
+View and quickly pending tasks to be performed, to keep the operational flow up to date.
 
-## How It Works
+## Functioning
 
-- **With pending items:** A detailed list of tasks to complete is shown (see image 1).
-- **No pending items:** The message "No pending tasks" appears confirming you are up to date (see image 2).
+- **With pending:** A detailed list of tasks to be performed is displayed (see image 1).
 
-This module is accessible directly from the Dashboard main screen.
+![View with pending](../../../../assets/pendingTask1.png)
+image 1: View with pending tasks
+
+- **Without pending:** The message "No pending tasks" appears confirming that you are up to date with your tasks (see image 2).
+
+![View without pending](../../../../assets/pendingTask2.png)
+image 2: View without pending tasks
+
+This module is accessible directly from the main Dashboard screen.
 
 ## Recommendations
-- Review this section at the start and end of your workday.
-- Prioritize tasks marked as urgent or with an approaching deadline.
+- Review this section at the beginning and end of your workday.
+- Prioritize urgent tasks.
