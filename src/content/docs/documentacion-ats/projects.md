@@ -29,9 +29,13 @@ Un Project define:
 
 Es el punto de partida para que prospectos y candidatos puedan ser asociados a una búsqueda concreta.
 
-![Creación de Proyecto](/images/projects/projects2.png)
+<div style="display: flex; justify-content: center;">
+  <img src="/images/projects/projects2.png" alt="Creación de Proyecto" />
+</div>
 
-![Detalle de Proyecto](/images/projects/projects3.png)
+<div style="display: flex; justify-content: center;">
+  <img src="/images/projects/projects3.png" alt="Detalle de Proyecto" />
+</div>
 
 La vista de Projects muestra en tiempo real todas las posiciones creadas dentro del ATS. Estas se organizan en tres grupos principales:
 
