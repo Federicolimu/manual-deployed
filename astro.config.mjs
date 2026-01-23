@@ -6,7 +6,6 @@ import { viewTransitions } from "astro-vtbot/starlight-view-transitions";
 import tailwindcss from "@tailwindcss/vite";
 import icon from "astro-icon";
 import config from "./src/config/config.json" assert { type: "json" };
-import social from "./src/config/social.json";
 import sidebar from "./src/config/sidebar.json";
 
 import { fileURLToPath } from "url";
@@ -32,8 +31,7 @@ export default defineConfig({
         dark: logo_darkmode,
         alt: "DocKit Logo",
       },
-      // @ts-ignore
-      social: social.main || [],
+      social: [],
       defaultLocale: "root",
       locales: {
         root: { label: "English", lang: "en" },

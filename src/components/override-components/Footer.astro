@@ -1,6 +1,5 @@
 ---
 import config from "@/config/config.json";
-import social from "@/config/social.json";
 import { Icon } from "@astrojs/starlight/components";
 import { markdownify } from "@/lib/utils/textConverter";
 import { getTranslations } from "@/lib/utils/languagePerser";
@@ -11,6 +10,7 @@ const menu = await getTranslations(locale || "en");
 
 const footer = menu.footer;
 const currentLocal = Astro.currentLocale || "en";
+const social = { main: [] };
 ---
 
 <footer>
