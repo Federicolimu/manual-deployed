@@ -1,136 +1,136 @@
 ---
 title: Prospects
-description: Base de datos de talento potencial para búsquedas y análisis de mercado.
+description: Database of potential talent for searches and market analysis.
 ---
 
-## Objetivo
+## Objective
 
-Centralizar y organizar la base de datos del talento potencial que aún no ha sido contactado, permitiendo realizar búsquedas avanzadas, análisis de mercado y una transición ordenada hacia candidatos activos dentro del proceso de reclutamiento en el ATS.
+Centralize and organize the database of potential talent that has not yet been contacted, allowing advanced searches, market analysis, and an orderly transition to active candidates within the recruitment process in the ATS.
 
-## Funcionalidades clave
+## Key functionalities
 
-Este módulo permite:
+This module allows:
 
-- **Visualizar y gestionar** una base masiva de perfiles profesionales
-- **Analizar la disponibilidad** de talento por skills, experiencia, manejo de idiomas y país
-- **Identificar perfiles** con mayor compatibilidad con un job description mediante inteligencia artificial
-- **Filtrar, clasificar y priorizar** prospectos antes de iniciar contacto
-- **Convertir prospectos** en candidatos una vez se establece comunicación
-- **Exportar información** para análisis externo o reportes
+- **View and manage** a massive database of professional profiles
+- **Analyze availability** of talent by skills, experience, language proficiency, and country
+- **Identify profiles** with greater compatibility with a job description through artificial intelligence
+- **Filter, classify and prioritize** prospects before initiating contact
+- **Convert prospects** into candidates once communication is established
+- **Export information** for external analysis or reports
 
 ---
 
-## Paso a paso
+## Step by step
 
-### 1. Acceso al módulo
+### 1. Module access
 
-En la parte superior de la interfaz del menú principal, luego de ingresar con las credenciales, seleccione la pestaña **Prospects**.
+At the top of the main menu interface, after logging in with credentials, select the **Prospects** tab.
 
-### 2. Exploración general
+### 2. General exploration
 
-En la parte superior se muestra el **total de prospectos disponibles**.
+At the top, the **total available prospects** is displayed.
 
-Se visualizan gráficos con:
+Charts are displayed with:
 
-- **Top Skills** - Habilidades más comunes en la base de datos
-- **Rangos de experiencia** (Junior, Semi, Senior, Senior+)
-- **Países** con mayor concentración de talento
+- **Top Skills** - Most common skills in the database
+- **Experience ranges** (Junior, Semi, Senior, Senior+)
+- **Countries** with the highest concentration of talent
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/overview.png" alt="Vista general de prospects con gráficos" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/overview.png" alt="General view of prospects with charts" style="max-width: 100%; height: auto;" />
 </div>
 
 :::note
-Estos datos se actualizan dinámicamente según los filtros aplicados.
+This data is updated dynamically according to applied filters.
 :::
 
-### 3. Uso de filtros
+### 3. Use of filters
 
-Desde el **panel izquierdo** es posible optimizar la búsqueda mediante los siguientes filtros:
+From the **left panel** it is possible to optimize the search through the following filters:
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/filters-panel.png" alt="Panel de filtros limpio" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/filters-panel.png" alt="Clean filters panel" style="max-width: 100%; height: auto;" />
 </div>
 
-#### Filtro por años de experiencia
+#### Filter by years of experience
 
-Permite segmentar candidatos según su nivel de seniority (Junior, Semi-Senior, Senior, Senior+).
+Allows segmenting candidates according to their seniority level (Junior, Semi-Senior, Senior, Senior+).
 
-#### Filtro por nivel de inglés
+#### Filter by English level
 
-En el filtro de **English Level** el botón desplegable presenta diferentes niveles por los cuales puede filtrar (Basic, Intermediate, Advanced, Native).
+In the **English Level** filter, the dropdown button presents different levels by which you can filter (Basic, Intermediate, Advanced, Native).
 
-#### Filtro por habilidades
+#### Filter by skills
 
-**Must-have Skills (Habilidades obligatorias):**
+**Must-have Skills (Mandatory skills):**
 
-Habilidades técnicas o profesionales indispensables que debe tener el prospecto.
+Technical or professional skills that the prospect must have.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/musthave-skills.png" alt="Filtro de Must-have Skills sin selección" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/musthave-skills.png" alt="Must-have Skills filter without selection" style="max-width: 100%; height: auto;" />
 </div>
 
-**Should-have Skills (Habilidades deseables):**
+**Should-have Skills (Desirable skills):**
 
-Habilidades adicionales que mejoran el perfil pero no son excluyentes.
+Additional skills that enhance the profile but are not exclusionary.
 
-Ambos filtros cuentan con un botón **Add/Edit** que permite seleccionar estas habilidades desde un catálogo predefinido.
+Both filters have an **Add/Edit** button that allows selecting these skills from a predefined catalog.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/skills-selector.png" alt="Selector de habilidades con opciones" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/skills-selector.png" alt="Skills selector with options" style="max-width: 100%; height: auto;" />
 </div>
 
-#### Filtro por país
+#### Filter by country
 
-El panel también incluye búsqueda por **Countries**.
+The panel also includes search by **Countries**.
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/countries-filter.png" alt="Botón de filtro por países" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/countries-filter.png" alt="Country filter button" style="max-width: 100%; height: auto;" />
 </div>
 
-Al seleccionar esta opción, el botón despliega una lista con diferentes países disponibles.
+When selecting this option, the button displays a list with different available countries.
 
-<!-- ![Lista desplegable de países](~/assets/prospects/countries-list.png) -->
+<!-- ![Country dropdown list](~/assets/prospects/countries-list.png) -->
 
-#### Búsqueda por palabras clave
+#### Search by keywords
 
-En la parte superior de las gráficas se encuentra una **barra de búsqueda general** que facilita la búsqueda mediante palabras clave.
+At the top of the charts there is a **general search bar** that facilitates searching by keywords.
 
-<!-- ![Barra de búsqueda general](~/assets/prospects/search-bar.png) -->
+<!-- ![General search bar](~/assets/prospects/search-bar.png) -->
 
-### 4. Revisión de prospectos
+### 4. Prospect review
 
-Cada **tarjeta de prospecto** muestra la siguiente información:
+Each **prospect card** displays the following information:
 
-- Nombre del perfil
-- País y zona horaria
-- Porcentaje de match con el job description
-- Botón **View Profile** - Ver perfil completo
-- Botón **LinkedIn** - Acceso directo al perfil de LinkedIn
-- Botón **Github** - Acceso directo al perfil de GitHub
-- Sección **General Notes** para comentarios internos
-- Descripción general de habilidades y experiencia
+- Profile name
+- Country and time zone
+- Match percentage with the job description
+- **View Profile** button - View complete profile
+- **LinkedIn** button - Direct access to LinkedIn profile
+- **Github** button - Direct access to GitHub profile
+- **General Notes** section for internal comments
+- General description of skills and experience
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <img src="/images/prospects/card-prospects.png" alt="Ejemplo de tarjeta de prospecto completa" style="max-width: 100%; height: auto;" />
+  <img src="/images/prospects/card-prospects.png" alt="Complete prospect card example" style="max-width: 100%; height: auto;" />
 </div>
 
 ---
 
-## Tips operativos
+## Operational tips
 
-- Utiliza primero los **gráficos** para entender el mercado antes de filtrar
-- Define bien los **Must-have Skills** para evitar falsos positivos
-- Revisa siempre el **porcentaje de match**, pero valida el perfil manualmente
-- Usa las **notas** para dejar contexto antes de contactar al prospecto
-- Exporta sólo cuando los filtros estén bien definidos para evitar ruido de datos
-- Recuerda que los prospectos **no han sido contactados** aún
+- Use the **charts** first to understand the market before filtering
+- Define well the **Must-have Skills** to avoid false positives
+- Always review the **match percentage**, but validate the profile manually
+- Use **notes** to leave context before contacting the prospect
+- Export only when filters are well defined to avoid data noise
+- Remember that prospects **have not been contacted** yet
 
-## Errores a evitar
+## Errors to avoid
 
-- Contactar prospectos sin convertirlos correctamente en candidatos
-- Usar filtros muy amplios que dificulten la toma de decisiones
-- Confundir prospectos con candidatos activos
-- No revisar el nivel de inglés antes de avanzar en el proceso
-- Exportar grandes volúmenes sin un criterio claro
-- No documentar interacciones o decisiones en las notas
+- Contacting prospects without properly converting them to candidates
+- Using filters that are too broad that make decision-making difficult
+- Confusing prospects with active candidates
+- Not reviewing the English level before advancing in the process
+- Exporting large volumes without a clear criterion
+- Not documenting interactions or decisions in notes

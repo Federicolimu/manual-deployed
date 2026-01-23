@@ -7,16 +7,12 @@ import tailwindcss from "@tailwindcss/vite";
 import icon from "astro-icon";
 import config from "./src/config/config.json" assert { type: "json" };
 import social from "./src/config/social.json";
-import locals from "./src/config/locals.json";
 import sidebar from "./src/config/sidebar.json";
 
 import { fileURLToPath } from "url";
 
 const { site } = config;
 const { title, logo, logo_darkmode } = site;
-
-export const locales = locals
-
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,7 +34,11 @@ export default defineConfig({
       },
       // @ts-ignore
       social: social.main || [],
-      locales,
+      defaultLocale: "root",
+      locales: {
+        root: { label: "English", lang: "en" },
+        es: { label: "Español", lang: "es" }
+      },
       sidebar: sidebar.main || [],
       customCss: ["./src/styles/global.css"],
       components: {

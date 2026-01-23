@@ -1,66 +1,67 @@
 {
   "main": [
     {
-      "label": "Documentación ATS",
-      "translations": {
-        "en": "ATS Documentation"
-      },
+      "label": "ATS Documentation",
+      "translations": { "es": "Documentación ATS" },
       "items": [
         {
-          "label": "[file-text] Introducción",
-          "translations": { "en": "[file-text] Introduction" },
-          "slug": "documentacion-ats/introduccion"
+          "label": "Introduction",
+          "translations": { "es": "Introducción" },
+          "slug": "documentacion-ats/introduction"
         },
         {
-          "label": "[clipboard-text] Lineamientos",
-          "translations": { "en": "[clipboard-text] Guidelines" },
-          "slug": "documentacion-ats/lineamientos"
+          "label": "Guidelines",
+          "translations": { "es": "Lineamientos" },
+          "slug": "documentacion-ats/guidelines"
         },
         {
-          "label": "[sign-in] Login",
+          "label": "Login",
+          "translations": { "es": "Inicio de Sesión" },
           "slug": "documentacion-ats/login"
         },
         {
-          "label": "[dashboard] Dashboard",
+          "label": "Dashboard",
+          "translations": { "es": "Panel de Control" },
           "slug": "documentacion-ats/dashboard"
         },
         {
-          "label": "[clipboard-text] Mis Tareas Pendientes",
-          "translations": { "en": "[clipboard-text] My Pending Tasks" },
+          "label": "My Pending Tasks",
+          "translations": { "es": "Mis Tareas Pendientes" },
           "slug": "documentacion-ats/my-pending-tasks"
         },
         {
-          "label": "[user-focus] Prospectos",
-          "translations": { "en": "[user-focus] Prospects" },
+          "label": "Prospects",
+          "translations": { "es": "Prospectos" },
           "slug": "documentacion-ats/prospects"
         },
         {
-          "label": "[user-plus] Candidatos",
-          "translations": { "en": "[user-plus] Candidates" },
+          "label": "Candidates",
+          "translations": { "es": "Candidatos" },
           "slug": "documentacion-ats/candidates"
         },
         {
-          "label": "[briefcase] Proyectos",
-          "translations": { "en": "[briefcase] Projects" },
+          "label": "Projects",
+          "translations": { "es": "Proyectos" },
           "slug": "documentacion-ats/projects"
         },
         {
-          "label": "[check-square] Tareas",
-          "translations": { "en": "[check-square] Tasks" },
+          "label": "Tasks",
+          "translations": { "es": "Tareas" },
           "slug": "documentacion-ats/tasks"
         },
         {
-          "label": "[phone] Contacto",
-          "translations": { "en": "[phone] Contact" },
-          "slug": "documentacion-ats/contacto"
+          "label": "Contact",
+          "translations": { "es": "Contacto" },
+          "slug": "documentacion-ats/contact"
         },
         {
-          "label": "[gear] Otros (Admin)",
-          "translations": { "en": "[gear] Other (Admin)" },
+          "label": "Other (Admin)",
+          "translations": { "es": "Otros (Admin)" },
           "slug": "documentacion-ats/other"
         },
         {
-          "label": "[sign-out] Logout",
+          "label": "Logout",
+          "translations": { "es": "Cerrar Sesión" },
           "slug": "documentacion-ats/logout"
         }
       ]

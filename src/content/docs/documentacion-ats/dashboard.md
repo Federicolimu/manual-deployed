@@ -1,34 +1,34 @@
 ---
 title: Dashboard
-description: Vista general de la actividad y accesos rápidos en el sistema.
+description: Overview of activity and quick access in the system.
 ---
 
-## Objetivo
-Es la pantalla principal del sistema. Desde aquí, el usuario puede visualizar a grandes rasgos la información reciente y acceder rápidamente a los módulos principales.
+## Objective
+It is the main screen of the system. From here, the user can view recent information at a glance and quickly access the main modules.
 
-## Funcionalidades clave
+## Key functionalities
 
-- **Menú de navegación:** Acceso directo a todas las sesiones (Tasks, Prospects, Candidates, etc.).
-- **Nuevas aplicaciones:** Resumen de candidatos recientes con datos de contacto, estado y proyecto al que aplicaron.
-- **Video & CV:** Enlaces rápidos a presentación y hoja de vida si están disponibles.
-- **Eventos abiertos:** Visualización de reuniones agendadas y eventos de LinkedIn.
+- **Navigation menu:** Direct access to all sessions (Tasks, Prospects, Candidates, etc.).
+- **New applications:** Summary of recent candidates with contact information, status, and project they applied to.
+- **Video & CV:** Quick links to presentation and resume if available.
+- **Open events:** Display of scheduled meetings and LinkedIn events.
 
-## Capturas de referencia
+## Reference screenshots
 
-_(Consulta las imágenes 1 a 4 del manual original para ver la distribución de widgets y métricas clave)._
+_(Refer to images 1 to 4 of the original manual to view widget distribution and key metrics)._
 
-![Dashboard General](/images/dashboard/dashboard1.png)
-_Figura 1: Vista general del Dashboard_
+![General Dashboard](/images/dashboard/dashboard1.png)
+_Figure 1: General Dashboard view_
 
-![Dashboard Filtros](/images/dashboard/dashboard2.png)
-_Figura 2: Vista general del Dashboard_
+![Dashboard Filters](/images/dashboard/dashboard2.png)
+_Figure 2: General Dashboard view_
 
-![Dashboard Gráficas](/images/dashboard/dashboard3.png)
-_Figura 3: Vista general del Dashboard_
+![Dashboard Charts](/images/dashboard/dashboard3.png)
+_Figure 3: General Dashboard view_
 
-![Dashboard Tablas](/images/dashboard/dashboard4.png)
-_Figura 4: Vista general del Dashboard_
+![Dashboard Tables](/images/dashboard/dashboard4.png)
+_Figure 4: General Dashboard view_
 
-## Tips operativos
-- Utiliza los atajos del Dashboard para revisar el estado diario de tu operación.
-- Verifica las notificaciones de nuevos ingresos antes de iniciar tareas profundas.
+## Operational tips
+- Use Dashboard shortcuts to review the daily status of your operation.
+- Check new entry notifications before starting deep tasks.

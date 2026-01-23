@@ -1,30 +1,30 @@
 ---
 title: Tasks
-description: Visión global de tareas propias y automatizadas.
+description: Global view of personal and automated tasks.
 ---
 
-## Objetivo
-Monitorear todas las tareas. Tareas pendientes, realizadas, en ejecución, aplazadas, falladas, o todas en conjunto. Además de las tareas del usuario, también se pueden observar las tareas asignadas al agente de IA y al sistema. Estas tareas se realizan de manera automatizada para agilizar el trabajo de los integrantes del equipo.
+## Objective
+Monitor all tasks. Pending, completed, in progress, postponed, failed tasks, or all together. In addition to user tasks, you can also see tasks assigned to the AI agent and the system. These tasks are performed automatically to speed up the work of team members.
 
-## Categorías de tareas
-- **Del usuario:** Tareas pendientes, realizadas, en ejecución, aplazadas y fallidas (ver imagen 1 y 2).
+## Task categories
+- **User tasks:** Pending, completed, in progress, postponed, and failed tasks (see images 1 and 2).
 
-![Tareas del Usuario 1](/images/task/task1.png)
-imagen 1: tareas del usuario
+![User Tasks 1](/images/task/task1.png)
+image 1: user tasks
 
-![Tareas del Usuario 2](/images/task/task2.png)
-imagen 2: tareas del usuario
+![User Tasks 2](/images/task/task2.png)
+image 2: user tasks
 
-- **Agent AI:** Tareas donde la IA toma decisiones de asignación y ejecución. El agente de IA es capaz de tomar decisiones sobre las tareas que tiene asignadas.
-Tiene capacidad de decidir por sí solo dónde asignar una tarea cuando se puede realizar o cuando no (ver imagen 3).
+- **Agent AI:** Tasks where AI makes assignment and execution decisions. The AI agent is capable of making decisions about the tasks assigned to it.
+It has the ability to decide on its own where to assign a task when it can be performed or when it cannot (see image 3).
 
-![Tareas del Agente IA](/images/task/task3.png)
-imagen 3: tareas del agente IA
+![Agent AI Tasks](/images/task/task3.png)
+image 3: AI agent tasks
 
-- **System:** Procesos automatizados predefinidos sin toma de decisión autónoma. El propio sistema también está diseñado para realizar tareas específicas, siempre y cuando esté en sus capacidades realizarlas. A diferencia del agente de IA, el sistema no es capaz de decidir por sí solo (ver imagen 4).
+- **System:** Predefined automated processes without autonomous decision-making. The system itself is also designed to perform specific tasks, as long as it is within its capabilities to perform them. Unlike the AI agent, the system is not capable of deciding on its own (see image 4).
 
-![Tareas del Sistema](/images/task/task4.png)
-imagen 4: tareas del sistema
+![System Tasks](/images/task/task4.png)
+image 4: system tasks
 
-## Uso diario
-Sirve para verificar que no existan bloqueos en los flujos automáticos y asegurar que tus responsabilidades manuales estén cubiertas.
+## Daily use
+Serves to verify that there are no blocks in automated flows and to ensure your manual responsibilities are covered.

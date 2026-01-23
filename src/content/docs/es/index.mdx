@@ -1,0 +1,67 @@
+---
+title: Manual de Usuario – ATS BETTERWAY DEVS
+description: Guía completa del sistema ATS BETTERWAY DEVS
+template: splash
+hero:
+  title: |
+    Manual de Usuario
+    <span class="light-text">ATS BETTERWAY DEVS</span>
+  tagline: Guía completa para el uso del sistema de seguimiento de candidatos ATS BETTERWAY DEVS.
+---
+
+import Section from "~/components/Section.astro";
+import Card from "~/components/user-components/NewCard.astro";
+import Grid from "~/components/user-components/Grid.astro";
+import LinkButton from "~/components/LinkButton.astro";
+import ListCard from "~/components/user-components/ListCard.astro";
+
+<Section title="Secciones del <span class='light-text'>Manual</span>" description="Explora todas las funcionalidades del sistema ATS BETTERWAY DEVS.">
+
+<Grid columns={4}>
+  <a href="/es/documentacion-ats/login/" class="card-link">
+    <Card title="Inicio de Sesión" icon="sign-in" iconColor="#FF8585">
+      Acceso al sistema y autenticación de usuarios.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/dashboard/" class="card-link">
+    <Card title="Panel de Control" icon="dashboard" iconColor="#7BE1A4">
+      Panel principal con resumen de actividades y métricas.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/my-pending-tasks/" class="card-link">
+    <Card title="Mis Tareas Pendientes" icon="clipboard-text" iconColor="#FFD97B">
+      Gestión de tareas pendientes asignadas al usuario.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/prospects/" class="card-link">
+    <Card title="Prospectos" icon="user-focus" iconColor="#979BFF">
+      Administración de prospectos y leads potenciales.
+    </Card>
+  </a>
+</Grid>
+
+<Grid columns={4}>
+  <a href="/es/documentacion-ats/candidates/" class="card-link">
+    <Card title="Candidatos" icon="user-plus" iconColor="#FF8585">
+      Gestión completa de candidatos en el proceso de selección.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/projects/" class="card-link">
+    <Card title="Proyectos" icon="briefcase" iconColor="#7BE1A4">
+      Administración de proyectos y vacantes disponibles.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/tasks/" class="card-link">
+    <Card title="Tareas" icon="check-square" iconColor="#FFD97B">
+      Sistema de tareas y seguimiento de actividades.
+    </Card>
+  </a>
+  <a href="/es/documentacion-ats/other/" class="card-link">
+    <Card title="Otros" icon="gear" iconColor="#979BFF">
+      Configuraciones adicionales y funcionalidades extra.
+    </Card>
+  </a>
+</Grid>
+
+</Section>
+

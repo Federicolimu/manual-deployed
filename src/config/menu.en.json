@@ -2,11 +2,11 @@
   "main": [
     {
       "name": "Home",
-      "url": "/en/"
+      "url": "/"
     },
     {
       "name": "Documentation",
-      "url": "/en/documentacion-ats/introduccion/"
+      "url": "/documentacion-ats/introduction/"
     }
   ],
   "footer": {
@@ -24,11 +24,11 @@
       "links": [
         {
           "name": "Home",
-          "url": "/en/"
+          "url": "/"
         },
         {
           "name": "Documentation",
-          "url": "/en/documentacion-ats/introduccion/"
+          "url": "/documentacion-ats/introduction/"
         }
       ]
     },

@@ -1,11 +1,11 @@
 {
   "site": {
-    "title": "Documentación ATS BetterWay Devs",
+    "title": "ATS BetterWay Devs Documentation",
     "logo": "/src/assets/logo-betterway.svg",
     "logo_darkmode": "/src/assets/logo-betterway.svg",
     "logo_width": "200",
     "logo_height": "60",
-    "logo_text": "Documentación ATS BetterWay Devs"
+    "logo_text": "ATS BetterWay Devs Documentation"
   },
   "settings": {
     "search": true,
@@ -20,10 +20,10 @@
   },
   "navigation_button": {
     "enable": true,
-    "label": "Ver Manual",
+    "label": "View Manual",
     "translations": {
-      "fr": "Ver Manual"
+      "es": "Ver Manual"
     },
-    "link": "/documentacion-ats/introduccion/"
+    "link": "/documentacion-ats/introduction/"
   }
 }

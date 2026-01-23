@@ -1,17 +1,17 @@
 ---
 title: Logout
-description: Cierre seguro de la sesión de usuario.
+description: Secure user session closure.
 ---
 
-## Objetivo
-Finalizar la conexión con el sistema, garantizando la seguridad de la cuenta y los datos.
+## Objective
+End the connection with the system, ensuring account and data security.
 
-## Paso a paso
+## Step by step
 
-1. Ubica tu avatar o nombre de usuario en la esquina superior derecha.
-2. Despliega el menú de usuario.
-3. Selecciona la opción **Logout** o **Sign out**.
-4. Confirma que el sistema te redirige a la pantalla de Login.
+1. Locate your avatar or username in the top right corner.
+2. Expand the user menu.
+3. Select the **Logout** or **Sign out** option.
+4. Confirm that the system redirects you to the Login screen.
 
-## Recomendación
-Realiza este paso siempre que utilices equipos compartidos o redes públicas para evitar accesos no autorizados.
+## Recommendation
+Always perform this step when using shared devices or public networks to prevent unauthorized access.

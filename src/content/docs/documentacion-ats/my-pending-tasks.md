@@ -1,26 +1,26 @@
 ---
 title: My Pending Tasks
-description: Gestión de tareas pendientes asignadas al usuario actual.
+description: Management of pending tasks assigned to the current user.
 ---
 
 
-## Objetivo
-Visualizar y rápidamente tareas pendientes por realizar, para mantener el flujo operativo al día.
+## Objective
+View and quickly pending tasks to be performed, to keep the operational flow up to date.
 
-## Funcionamiento
+## Functioning
 
-- **Con pendientes:** Se muestra una lista detallada de tareas por realizar (ver imagen 1).
+- **With pending:** A detailed list of tasks to be performed is displayed (see image 1).
 
-![Vista con pendientes](/images/my-pending-task/pendingTask1.png)
-imagen 1: Vista con tareas pendientes
+![View with pending](/images/my-pending-task/pendingTask1.png)
+image 1: View with pending tasks
 
-- **Sin pendientes:** Aparece el mensaje “No pending tasks” confirmando que estás al día con tus tareas (ver imagen 2).
+- **Without pending:** The message "No pending tasks" appears confirming that you are up to date with your tasks (see image 2).
 
-![Vista sin pendientes](/images/my-pending-task/pendingTask2.png)
-imagen 2: Vista sin tareas pendientes
+![View without pending](/images/my-pending-task/pendingTask2.png)
+image 2: View without pending tasks
 
-Este módulo es accesible directamente desde la pantalla principal del Dashboard.
+This module is accessible directly from the main Dashboard screen.
 
-## Recomendaciones
-- Revisa esta sección al iniciar y finalizar tu jornada.
-- Prioriza las tareas urgentes.      
+## Recommendations
+- Review this section at the beginning and end of your workday.
+- Prioritize urgent tasks.
