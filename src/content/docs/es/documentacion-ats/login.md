@@ -1,9 +1,9 @@
 ---
-title: Login ATS
+title: Inicio de Sesión en ATS
 description: Permitir el acceso seguro al ATS, garantizando que cada usuario ingrese con el rol y permisos correctos.
 ---
 
-## LOGIN TO BETTERWAY DEVS ATS
+## Inicio de Sesión en ATS
 
 Permitir el acceso seguro al ATS, garantizando que cada usuario ingrese con el rol y permisos correctos para operar dentro del sistema.
 

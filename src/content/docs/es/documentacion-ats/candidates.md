@@ -1,5 +1,5 @@
 ---
-title: Candidates
+title: Candidatos
 description: Gestión de candidatos activos en procesos de selección.
 ---
 

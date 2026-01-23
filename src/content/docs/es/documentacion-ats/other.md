@@ -1,5 +1,5 @@
 ---
-title: Other
+title: Otros
 description: Permitir centralizar funcionalidades administrativas y complementarias del ATS BT que apoyan el proceso de reclutamiento.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Tasks
+title: Tareas
 description: Visión global de tareas propias y automatizadas.
 ---
 

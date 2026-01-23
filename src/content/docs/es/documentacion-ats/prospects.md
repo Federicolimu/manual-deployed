@@ -1,5 +1,5 @@
 ---
-title: Prospects
+title: Prospectos
 description: Base de datos de talento potencial para búsquedas y análisis de mercado.
 ---
 

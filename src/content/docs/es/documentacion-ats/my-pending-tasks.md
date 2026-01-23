@@ -1,5 +1,5 @@
 ---
-title: My Pending Tasks
+title: Mis Tareas Pendientes
 description: Gestión de tareas pendientes asignadas al usuario actual.
 ---
 

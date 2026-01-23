@@ -1,5 +1,5 @@
 ---
-title: Dashboard
+title: Panel de Control
 description: Vista general de la actividad y accesos rápidos en el sistema.
 ---
 

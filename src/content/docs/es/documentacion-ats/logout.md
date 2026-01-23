@@ -1,5 +1,5 @@
 ---
-title: Logout
+title: Cerrar Sesión
 description: Cierre seguro de la sesión de usuario.
 ---
 

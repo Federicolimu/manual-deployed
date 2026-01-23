@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Proyectos
 description: El módulo de Projects centraliza la gestión de todas las posiciones de talento activas y cerradas dentro del ATS.
 ---
 
