@@ -10,40 +10,11 @@ const menu = await getTranslations(locale || "en");
 
 const footer = menu.footer;
 const currentLocal = Astro.currentLocale || "en";
-const social: { main: { href: string; label: string; icon: string }[] } = { main: [] };
 ---
 
 <footer>
   <div class="container">
     <div class="top-footer">
-
-
-      {
-        config?.params?.footer_contact?.enable && (
-          <div class="footer-contact">
-            <h4>Contáctanos</h4>
-
-            <ul class="social-icons">
-              {social.main.map((item, index) => (
-                <>
-                  <li>
-                    <a href={item.href} aria-label={item.label}>
-                      <Icon
-                        name={item?.icon as any}
-                        color="var(--sl-color-white)"
-                        size="20px"
-                      />
-                    </a>
-                  </li>
-                  {index < social.main.length - 1 && (
-                    <li class="separator">•</li>
-                  )}
-                </>
-              ))}
-            </ul>
-          </div>
-        )
-      }
     </div>
     <div class="bottom-footer">
       <p set:html={markdownify(config?.params?.copyright)} />

@@ -50,11 +50,6 @@
           "slug": "documentacion-ats/tasks"
         },
         {
-          "label": "Contact",
-          "translations": { "es": "Contacto" },
-          "slug": "documentacion-ats/contact"
-        },
-        {
           "label": "Other (Admin)",
           "translations": { "es": "Otros (Admin)" },
           "slug": "documentacion-ats/other"
