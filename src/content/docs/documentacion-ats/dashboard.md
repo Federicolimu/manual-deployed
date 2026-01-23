@@ -15,8 +15,6 @@ It is the main screen of the system. From here, the user can view recent informa
 
 ## Reference screenshots
 
-_## Reference screenshots
-
 _(Refer to images 1 to 3 of the original manual to view widget distribution and key metrics)._
 
 ![General Dashboard](/images/dashboard/dashboard1.png)
