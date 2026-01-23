@@ -15,19 +15,18 @@ It is the main screen of the system. From here, the user can view recent informa
 
 ## Reference screenshots
 
-_(Refer to images 1 to 4 of the original manual to view widget distribution and key metrics)._
+_## Reference screenshots
 
-![General Dashboard](/images/dashboard/dashboard1.png)
+_(Refer to images 1 to 3 of the original manual to view widget distribution and key metrics)._
+
+![General Dashboard](/images/dashboard/Dashboard1.png)
 _Figure 1: General Dashboard view_
 
-![Dashboard Filters](/images/dashboard/dashboard2.png)
+![Dashboard Filters](/images/dashboard/Dashboard2.png)
 _Figure 2: General Dashboard view_
 
-![Dashboard Charts](/images/dashboard/dashboard3.png)
+![Dashboard Charts](/images/dashboard/Dashboard3.png)
 _Figure 3: General Dashboard view_
-
-![Dashboard Tables](/images/dashboard/dashboard4.png)
-_Figure 4: General Dashboard view_
 
 ## Operational tips
 - Use Dashboard shortcuts to review the daily status of your operation.
