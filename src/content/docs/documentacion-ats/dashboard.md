@@ -19,13 +19,13 @@ _## Reference screenshots
 
 _(Refer to images 1 to 3 of the original manual to view widget distribution and key metrics)._
 
-![General Dashboard](/images/dashboard/Dashboard1.png)
+![General Dashboard](/images/dashboard/dashboard1.png)
 _Figure 1: General Dashboard view_
 
-![Dashboard Filters](/images/dashboard/Dashboard2.png)
+![Dashboard Filters](/images/dashboard/dashboard2.png)
 _Figure 2: General Dashboard view_
 
-![Dashboard Charts](/images/dashboard/Dashboard3.png)
+![Dashboard Charts](/images/dashboard/dashboard3.png)
 _Figure 3: General Dashboard view_
 
 ## Operational tips
