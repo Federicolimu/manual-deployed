@@ -16,7 +16,7 @@ El módulo Others permite:
 - Mantener información estructurada que impacta directamente en proyectos y candidatos.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/images/other/other1.png" alt="Módulo Other General" />
+  <img src="/images/other/otherSubmenu.png" alt="Módulo Other General" />
 </div>
 
 ## Submódulo: Companies
@@ -35,7 +35,7 @@ Permite:
 - Mantener consistencia entre nombre interno y nombre público.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/images/other/other2.png" alt="Submódulo Companies" />
+  <img src="/images/other/menuCompanies.png" alt="Submódulo Companies" />
 </div>
 
 ### Tips operativos (Companies)
@@ -43,6 +43,10 @@ Permite:
 - Mantén ocultas (**Hidden**) empresas internas o de prueba.
 - Verifica el website antes de guardar.
 - Evita duplicar empresas con nombres similares.
+
+<div style="display: flex; justify-content: center;">
+  <img src="/images/other/companiesEdit.png" alt="edit" />
+</div>
 
 ### Errores a evitar (Companies)
 - Crear la misma empresa varias veces con nombres distintos.
@@ -65,7 +69,13 @@ Permite:
 - Controlar el alcance de networking desde la plataforma.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/images/other/other3.png" alt="Submódulo Connections" />
+  <img src="/images/other/connections.png" alt="Submódulo Connections" />
+</div>
+
+informacion del prospecto y el reclutador que realizo la conexion y boton que redireciona a linkedin
+
+<div style="display: flex; justify-content: center;">
+  <img src="/images/other/informationConnections.png" alt="Submódulo Connections" />
 </div>
 
 ### Tips operativos (Connections)
@@ -94,7 +104,7 @@ Permite:
 - Respaldar decisiones de descarte o avance.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/images/other/other4.png" alt="Submódulo VideoAsk" />
+  <img src="/images/other/videoAsk.png" alt="Submódulo VideoAsk" />
 </div>
 
 ### Tips operativos (VideoAsk)
