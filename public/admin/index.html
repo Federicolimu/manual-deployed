@@ -3,27 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Decap CMS</title>
+    <title>Content Manager</title>
 
-    <!-- Prevent auto init -->
-    <script>
-        window.CMS_MANUAL_INIT = true;
-    </script>
-
-    <!-- Load Decap -->
-    <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.10.0/dist/decap-cms.min.js"></script>
+    <!-- Decap CMS -->
+    <script src="https://unpkg.com/decap-cms@3.10.0/dist/decap-cms.js"></script>
 </head>
 
 <body>
     <div id="nc-root"></div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            if (window.CMS) {
-                window.CMS.init();
-            }
-        });
-    </script>
 </body>
 
 </html>
