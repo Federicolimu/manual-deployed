@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: https://github.com/Federicolimu/manual-deployed.git
-  branch: dev
-  auth_type: oauth
+  repo: Federicolimu/manual-deployed
+  branch: dev   
+  auth_type: pkce
   app_id: Ov23liWdH6HkBl4pMrBO
 
 media_folder: "public/uploads"
