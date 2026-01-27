@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Content Manager</title>
+    <meta charset="UTF-8" />
+    <title>Decap CMS</title>
 
-    <!-- Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@latest/dist/decap-cms.js"></script>
+    <!-- Prevent auto init -->
+    <script>
+        window.CMS_MANUAL_INIT = true;
+    </script>
+
+    <!-- Load Decap -->
+    <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.10.0/dist/decap-cms.min.js"></script>
 </head>
 
 <body>
-    <!-- ESTE DIV ES CLAVE -->
     <div id="nc-root"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            if (window.CMS) {
+                window.CMS.init();
+            }
+        });
+    </script>
 </body>
-<!-- redeploy -->
 
 </html>
