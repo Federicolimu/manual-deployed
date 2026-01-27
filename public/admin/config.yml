@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: https://github.com/Federicolimu/manual-deployed.git
+  branch: dev
+  auth_type: oauth
+  app_id: Ov23liWdH6HkBl4pMrBO
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha", name: "date", widget: "datetime" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
