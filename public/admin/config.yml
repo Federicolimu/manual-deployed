@@ -2,10 +2,7 @@ backend:
   name: github
   repo: Federicolimu/manual-deployed
   branch: dev
-  auth_type: pkce
-  app_id: Ov23liWdH6HkBl4pMrBO
-  site_url: https://manual-deployed2.pages.dev
-  base_url: https://manual-deployed2.pages.dev
+  auth_type: implicit
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
@@ -20,4 +17,3 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Fecha", name: "date", widget: "datetime" }
       - { label: "Contenido", name: "body", widget: "markdown" }
-
