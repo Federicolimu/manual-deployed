@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
-  branch: dev
+  name: github
+  repo: "{{ env.GITHUB_REPO }}"
+  branch: "{{ env.GITHUB_BRANCH }}"
+  auth_token: "{{ env.GITHUB_TOKEN }}"
+
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
